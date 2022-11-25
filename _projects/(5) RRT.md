@@ -1,7 +1,7 @@
 ---
 name:  Rapidly-exploring Random Tree
 tools: [RRT, Python, Path Planning]
-image: https://jiasenzheng.github.io/assets/RRT3.gif
+image: https://marnonel6.github.io/assets/RRT_m.gif
 description: Implementations of the RRT algorithm under three different conditions
 ---
 
@@ -15,9 +15,9 @@ A rapidly-explore random tree (RRT) algorithm was developed by `Steven M. LaVall
 <img src="{{ site.url }}{{ site.baseurl }}/assets/RRT0.gif" />
 <img src="{{ site.url }}{{ site.baseurl }}/assets/RRT1.gif" />
 * RRT with circular obstacles
-<img src="{{ site.url }}{{ site.baseurl }}/assets/RRT2.gif" />
-* RRT with arbitary obstacles
-<img src="{{ site.url }}{{ site.baseurl }}/assets/RRT3.gif" />
+<img src="{{ site.url }}{{ site.baseurl }}/assets/RRT_a.gif" />
+<!-- * RRT with arbitary obstacles
+<img src="{{ site.url }}{{ site.baseurl }}/assets/RRT3.gif" /> -->
 
 ### Algorithm descriptions
 * pseudocode for the basic algorithm (no obstacle)
