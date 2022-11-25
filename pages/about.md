@@ -10,7 +10,7 @@ weight: 2
 <font size="+1">
 <!-- Hi, I am <b>Jiasen (Jason) Zheng</b> :wave:.<br> -->
 
-Hi, I am <b>Marthinus (Marno) Nel</b>
+Hi, I am <b>Marthinus (Marno) Nel</b><br>
   
 I graduated in 2021 with a Bachelor's degree in Robotic/Mechatronic, Mechanical and Electronic, Engineering from Stellenbosch University in Stellenbosch, South Africa.
 
