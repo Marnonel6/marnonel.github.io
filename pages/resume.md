@@ -10,7 +10,7 @@ weight: 4
   <a
     target="_blank"
     class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2"
-    href="/assets/RESUME_JZ.pdf"
+    href="/assets/MJ_Nel_CV.pdf"
     >Resume.pdf</a
   >
 </li>
