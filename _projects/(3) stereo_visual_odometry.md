@@ -1,7 +1,7 @@
 ---
 name: PLC Autonomous Cube Stacker
 tools: [PLC, Mechatronics, Occiliscope]
-image: https://marnonel6.github.io/assets/homepage_cube_stacker_4x_speed.gif
+image: https://marnonel6.github.io/assets/homepage_cube_stacker_4x_speed_indicator.gif
 description: Built an autonomous cube stacker with a user interface capable of stacking 16 cubes.
 ---
 
