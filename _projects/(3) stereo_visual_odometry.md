@@ -1,8 +1,8 @@
 ---
-name: Stereo Visual Odometry
-tools: [OpenCV, Python, SIFT, Motion Estimation]
-image: https://jiasenzheng.github.io/assets/vo.gif
-description: Built visual odometry with a stereo camera setup that estimates the position and motion of the vehicle.
+name: PLC Autonomous Cube Stacker
+tools: [PLC, Mechatronics, Occiliscope]
+image: https://marnonel6.github.io/assets/cube_stacker_4x_speed.gif
+description: Built an autonomous cube stacker with a user interface capable of stacking 16 cubes.
 ---
 
 # Stereo Visual Odometry
