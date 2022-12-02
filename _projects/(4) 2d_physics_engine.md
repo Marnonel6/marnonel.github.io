@@ -16,7 +16,7 @@ This project simulates a planer multi-body dynamics of a jack in the box. In the
 {% include elements/video.html id="pkTauVynRE8" %}
 <br>
 ### System schematic
-<img src="{{ site.url }}{{ site.baseurl }}/assets/jack_frames.jpeg" style="height: 600px; width:600px;"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/jack_frames.jpg" style="height: 600px; width:600px;"/>
 <br>
 In the figure shown above, the system is a planar model, which means the two objects can only move in x and y directions. There are 9 frames in total:
 * **w**: the world frame (reference frame)
