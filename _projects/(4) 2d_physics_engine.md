@@ -1,7 +1,7 @@
 ---
 name: 2D Physics Engine From Scratch 
 tools: [Python, Lagrangian Dynamics, Rigid Body Transform, Impact Update]
-image: https://jiasenzheng.github.io/assets/jack.gif
+image: https://marnonel6.github.io/assets/Jack_in_box.webm
 description: Simulated a planer multi-body dynamics of a jack in the box with external forces and impacts.
 ---
 
