@@ -16,6 +16,12 @@ This project aims to control a Youbot to pick and place a block with user-specif
 
 https://marnonel6.github.io/assets/YouBot_Homepage.gif
 
+
+https://user-images.githubusercontent.com/60977336/206877423-de936713-47cd-4e58-9947-0543bdbf72bf.mp4
+
+![YouBot_Homepage](https://user-images.githubusercontent.com/60977336/206877427-eea1e683-d787-4c2b-aab7-87e27d40e30a.gif)
+
+
 <br>
 ### Algorithm description
 <br>
