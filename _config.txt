@@ -22,17 +22,17 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Jiasen Zheng
+  name              : Marno Nel
   image             : https://raw.githubusercontent.com/JiasenZheng/portfolio_images/main/test.jpg
 # behance           : your_username
 # dribbble          : your_username
-  email             : jiasenzheng2020@northwestern.edu
+  email             : marthinusnel2023@northwestern.edu
 # facebook          : your_username
-  github            : JiasenZheng
+  github            : Marnonel6
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : jiasen-zheng-943994103/
+  linkedin          : linkedin.com/in/mj-nel
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
