@@ -73,5 +73,5 @@ Three situations were considered as results.
 
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/JiasenZheng/Youbot_Mobile_Manipulation" text="GitHub" %}
+{% include elements/button.html link="https://github.com/Marnonel6/Capstone_Robotic_Manipulation" text="GitHub" %}
 </p>
