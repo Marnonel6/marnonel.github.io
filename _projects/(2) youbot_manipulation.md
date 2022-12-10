@@ -12,15 +12,11 @@ description: Controlled a Youbot to pick and place a block with user-specified p
 This project aims to control a Youbot to pick and place a block with user-specific positions and then simulate it in Coppeliasim. The algorithm first generates a reference traject of the end-effector and then applies feedback control to manipulate the Youbot.
 <br><br>
 ### Video demo
-{% include elements/video.html id="tw601obYkuU" %}
+<!-- {% include elements/video.html id="tw601obYkuU" %} -->
 
-https://marnonel6.github.io/assets/YouBot_Homepage.gif
+![youBot_pick_n_place](https://user-images.githubusercontent.com/60977336/206877721-02e2fd96-d7c7-44fa-a3b6-995fa3a62176.gif)
 
-
-https://user-images.githubusercontent.com/60977336/206877423-de936713-47cd-4e58-9947-0543bdbf72bf.mp4
-
-![YouBot_Homepage](https://user-images.githubusercontent.com/60977336/206877427-eea1e683-d787-4c2b-aab7-87e27d40e30a.gif)
-
+![self_collision](https://user-images.githubusercontent.com/60977336/206877719-6a0491db-f139-45c7-b4d1-6a534ec84b84.gif)
 
 <br>
 ### Algorithm description
