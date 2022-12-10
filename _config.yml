@@ -3,7 +3,7 @@ title               : Marno Nel
 description         : >-
                       Hello.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : Marnonel6/marnonel6.github.io #https://marnonel.github.io #JiasenZheng/jiasenzheng.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : Marnonel6/marnonel6.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : JiasenZheng/portfolio
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -23,17 +23,17 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Jiasen Zheng
+  name              : Marno Nel
   image             : 
 # behance           : your_username
 # dribbble          : your_username
-  email             : jiasenzheng2020@northwestern.edu
+  email             : marthinusnel2023@northwestern.edu
 # facebook          : your_username
-  github            : JiasenZheng
+  github            : Marnonel6
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : jiasen-zheng/
+  linkedin          : linkedin.com/in/mj-nel
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
