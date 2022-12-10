@@ -14,10 +14,7 @@ This project aims to control a Youbot to pick and place a block with user-specif
 ### Video demo
 {% include elements/video.html id="tw601obYkuU" %}
 
-https://marnonel6.github.io/assets/youBot_pick_place.mp4
-
-
-https://github.com/Marnonel6/marnonel6.github.io/blob/main/assets/youBot_pick_place.mp4
+https://marnonel6.github.io/assets/YouBot_Homepage.gif
 
 <br>
 ### Algorithm description
