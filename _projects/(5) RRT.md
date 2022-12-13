@@ -21,12 +21,10 @@ A rapidly exploring random tree (RRT) is an algorithm designed to efficiently se
 
 ### Algorithm descriptions
 * pseudocode for the basic algorithm with no obstacles:
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/RRT4.png" /><br> -->
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/RRT4.png" /><br>
+![Screenshot from 2022-12-12 22-01-34](https://user-images.githubusercontent.com/60977336/207223788-311ce13e-b75d-4a80-a017-762573dfe067.png)
 
-* **RANDOM_CONFIGURATION** Generate a random position in the map
-* **NEAREST_VERTEX** Finds the vertex in the G-list that is closest to the given position
-* **NEW_CONFIGURATION** Generates a configuration by moving a distance from the nearest vertex towards the random position
 * **CHECK_POINT_COLLISION** Checks if the point collides with the obstacles
 * **CHECK_EDGE_COLLISION** Checks if the edge collides with the obstacles
 * **CHECK_COLLISION_FREE_PATH** Check if there is a collision-free path to the goal position <br><br>
