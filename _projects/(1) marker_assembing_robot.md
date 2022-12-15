@@ -21,6 +21,10 @@ The project aims to assemble markers and caps through pick, place, press, and so
 * Bhagyesh Agresar
 * Keaton Griffith
 
+
+<div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/639a5d5950cffc00254c32ee?autoplay=true" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div><p style="font-size: 12px; text-align: right;">Video edited on <a href="https://www.kapwing.com/video-editor">Kapwing</a></p>
+
+
 <br>
 ### Manipulation
 <br>
