@@ -23,7 +23,7 @@ The project aims to have a Franka Emika 7DOF robotic arm autonomously play airho
 
 ### Collaborations
 * Marno (Marthinus) Nel 
-    - (Team Leader, Systems Integrator (Git), Trajectory calculations, Robot manipulation, and assisted on Computer vision.)
+    - Team Leader, Systems Integrator (Git), Trajectory calculations, Robot manipulation, and assisted on Computer vision.
 * Ritika Ghosh
 * Hanyin Yuan
 * Ava Zahedi
