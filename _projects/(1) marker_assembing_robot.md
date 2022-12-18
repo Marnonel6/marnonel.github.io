@@ -10,21 +10,20 @@ description: Programmed a 7DOF robotic arm to autonomously play airhockey by uti
 <br>
 ### Brief overview
 <br>
-The project aims to assemble markers and caps through pick, place, press, and sort operations sequences. The intent was largely inspired by the application of robots in manufacturing and industry. Our project used a RealSense camera to detect the markers' colors and MoveIt manipulation commands to actuate the robot. Franka-specific actions also were used to grip caps and markers during movement. The framework of the project was controlled using a state machine developed in the ROS package called SMACH. The state machine intelligence implemented sorting of colors by hue based on camera data coming from the RealSense perception subsystem. Intelligence then leveraged the manipulation to pick, place and press caps and markers in the assembly tray. 
+<!-- The project aims to assemble markers and caps through pick, place, press, and sort operations sequences. The intent was largely inspired by the application of robots in manufacturing and industry. Our project used a RealSense camera to detect the markers' colors and MoveIt manipulation commands to actuate the robot. Franka-specific actions also were used to grip caps and markers during movement. The framework of the project was controlled using a state machine developed in the ROS package called SMACH. The state machine intelligence implemented sorting of colors by hue based on camera data coming from the RealSense perception subsystem. Intelligence then leveraged the manipulation to pick, place and press caps and markers in the assembly tray. -->
+The project aims to have a Franka Emika 7DOF robotic arm autonomously play airhockey againts an opponent. The project was inspired by the fast dynamics of the game and the variability in game play which does not allow any hard coding and decisions need to be made in real time. Our project used a Realsense camera with OpenCV to detect the puck and calculate the transformation of the puck relative to the robot. The puck coordinates are then used to calculate the predicted trajectory of the puck and estimate where the robot should hit the puck along the predicted trajectory line. Robot Operating System (ROS2) and the MoveIt2 motion planning framework are used to interface with the robot and control its movements. A ROS2 python API wrapper was developed as it was not currently avaible when this project was developed. The custom API is in the moveit_helper package.
 
 ### Video demo
-{% include elements/video.html id="SXJP4yIiKOU" %}
-<br>
-### Collaborations
-* Jiasen Zheng (Preception & 3D Modeling)
-* Kojo Welbeck
-* Ian Kennedy
-* Bhagyesh Agresar
-* Keaton Griffith
-
+<!-- {% include elements/video.html id="SXJP4yIiKOU" %}
+<br> -->
 
 <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/639a5d5950cffc00254c32ee?autoplay=true" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div><p style="font-size: 12px; text-align: right;">Video edited on <a href="https://www.kapwing.com/video-editor">Kapwing</a></p>
 
+### Collaborations
+* Marno (Marthinus) Nel (Team Leader, Systems Integrator (Git), Trajectory calculations, Robot manipulation, and assisted on Computer vision.)
+* Ritika Ghosh
+* Hanyin Yuan
+* Ava Zahedi
 
 <br>
 ### Manipulation
@@ -82,5 +81,5 @@ import vision.vision1
 
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/JiasenZheng/Marker_Assembling_Robot" text="GitHub" %}
+{% include elements/button.html link="https://github.com/Marnonel6/Franka_HockeyBot" text="GitHub" %}
 </p>
