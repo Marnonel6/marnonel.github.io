@@ -2,8 +2,7 @@
 name: Marker Assembling Robot
 tools: [ROS2, Python, OpenCV, Moveit2, Trajectory prediction]
 image: https://marnonel6.github.io/assets/HockeyBot2.gif
-description: Assembled markers and caps through pick, place, press, and sort operations sequences.
-Programmed a 7DOF robotic arm to autonomously play airhockey by utilizing openCV for puck detection and then performing trajectory prediction for the puck.
+description: Programmed a 7DOF robotic arm to autonomously play airhockey by utilizing openCV for puck detection and then performing trajectory prediction for the puck.
 
 ---
 
