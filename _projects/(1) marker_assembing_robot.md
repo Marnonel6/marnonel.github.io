@@ -28,23 +28,16 @@ The project aims to have a Franka Emika 7DOF robotic arm autonomously play airho
 * Hanyin Yuan
 * Ava Zahedi
 
-## **Contents**
-Packages:  
-1. [hockeybot](https://github.com/ME495-EmbeddedSystems/hw3group-HockeyBot/tree/main/hockeybot)
-2. [moveit_helper](https://github.com/ME495-EmbeddedSystems/hw3group-HockeyBot/tree/main/moveit_helper)
-3. [moveit_interface](https://github.com/ME495-EmbeddedSystems/hw3group-HockeyBot/tree/main/moveit_interface)
-
-## **User Guide**
-1. Follow the steps on website ([Turn on Franka](https://nu-msr.github.io/ros_notes/ros2/franka.html)) to start the Frank Robot.
-2. Connecting the RealSense camera (via USB cable) and the Franka Emika Panda arm (via Ethernet cable) to the user's computer.
-3. Launch the hockeybot package using the command `ros2 launch hockeybot main.launch.py robot:=false`.
-
 ## Concepts and Overall System Architecture
 The process loop of the robot is as follows:
 
 ### Start-Up Sequence
 
-https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4
+
+<video width="720" height="480" controls="controls">
+  <source src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" type="video/mp4">
+</video>
+
 
 * Upon startup, the robot follows a start-up sequence to reach its home position. The robot follows a series of waypoints 
 to reach the home x- and y-coordinates with an offset in the z. It then reaches down to grasp the paddle (with an adapter) 
