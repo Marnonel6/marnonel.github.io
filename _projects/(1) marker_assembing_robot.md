@@ -1,7 +1,7 @@
 ---
 name: Marker Assembling Robot
-tools: [ROS, Python, OpenCV, Moveit, Smach]
-image: https://jiasenzheng.github.io/assets/marker.gif
+tools: [ROS2, Python, OpenCV, Moveit2, Trajectory prediction]
+image: https://marnonel6.github.io/assets/HockeyBot1.gif
 description: Assembled markers and caps through pick, place, press, and sort operations sequences. 
 ---
 
