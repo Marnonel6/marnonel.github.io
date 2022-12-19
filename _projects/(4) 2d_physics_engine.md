@@ -16,7 +16,7 @@ This project simulates a planer multi-body dynamics of a jack in the box. In the
 <!-- {% include elements/video.html id="pkTauVynRE8" %} -->
 
 <video width="720" height="480" controls="controls">
-  <source src="https://github.com/Marnonel6/marnonel6.github.io/blob/main/assets/Jack_in%20_box2.mp4" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/60977336/208330999-28edd31f-ba20-44cb-a65d-e03a6b08dbb9.mp4" type="video/mp4">
 </video>
 
 <br>
