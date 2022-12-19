@@ -33,11 +33,9 @@ The process loop of the robot is as follows:
 
 ### Start-Up Sequence
 
-
 <video width="720" height="480" controls="controls">
   <source src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" type="video/mp4">
 </video>
-
 
 * Upon startup, the robot follows a start-up sequence to reach its home position. The robot follows a series of waypoints 
 to reach the home x- and y-coordinates with an offset in the z. It then reaches down to grasp the paddle (with an adapter) 
@@ -46,8 +44,9 @@ down during movement, it will not apply a force into the table while still keepi
 
 ### Computer Vision
 
-https://user-images.githubusercontent.com/60977336/206880795-9153ac89-7eeb-42bf-a819-3e3e85a09f68.mp4
-
+<video width="720" height="480" controls="controls">
+  <source src="https://user-images.githubusercontent.com/60977336/206880795-9153ac89-7eeb-42bf-a819-3e3e85a09f68.mp4" type="video/mp4">
+</video>
 
 * Intel RealSense D435i is used at 480x270x90 allowing the puck to be tracked at 90 fps. As soon as the streaming has been enabled, this node detects the center of the table in pixel coordinates. Then with the help of the depth camera, the deproject function is used to convert pixel coordinates into real world coordinates with respect to the camera. Since the distance between the air hockey table and the Franka robot is known, points from the camera's frame of reference can be transformed to the robot's frame of reference. Next, with the help of OpenCV's HughCircles function the center of the puck is tracked in real time. For the calculation of the trajectory, the puck is only tracked when going towards the robot and up to the center of the table. In order to get rid of noise, before publishing the puck's position it is checked whether the point is close (with a prefixed tolerance) to the best fit line of the previous positions obtained. Note: The output video shows the tracked puck encircled with a black border, regardless of whether all these points are published (in other words, the video shows the contour for every direction of movement of the puck).
 
@@ -60,7 +59,9 @@ puck coordinates from computer vision. The node handles collisions by reflecting
 
 ### Hit the Puck
 
-https://user-images.githubusercontent.com/60728026/206883262-3a7bd3e8-8259-4f35-b5ad-2bc805d5e52b.mp4
+<video width="720" height="480" controls="autoplay">
+  <source src="https://user-images.githubusercontent.com/60728026/206883262-3a7bd3e8-8259-4f35-b5ad-2bc805d5e52b.mp4" type="video/mp4">
+</video>
 
 * After receiving waypoint and goal positions, the robot receives service calls to move to those points, thereby meeting 
 the puck along its trajectory and hitting it. If there is an edge case where the robot cannot successfully meet the puck 
