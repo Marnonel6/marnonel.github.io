@@ -61,7 +61,7 @@ puck coordinates from computer vision. The node handles collisions by reflecting
 
 ### Hit the Puck
 
-<video width="720" height="480" controls="autoplay">
+<video width="720" height="480" controls="controls">
   <source src="https://user-images.githubusercontent.com/60728026/206883262-3a7bd3e8-8259-4f35-b5ad-2bc805d5e52b.mp4" type="video/mp4">
 </video>
 
