@@ -69,6 +69,7 @@ The following steps are used to solve for impact updates:
     3. Substitute dummy variables to those equations for both before and after impact
     4. Construct and solve for the equations based on the following formula:
     ![alt text]({{ site.url }}{{ site.baseurl }}/assets/jack2.png) <br><br><br>
+    
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/JiasenZheng/Physics_Engine_From_Scratch" text="GitHub" %}
