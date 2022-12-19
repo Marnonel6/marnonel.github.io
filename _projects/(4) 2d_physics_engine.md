@@ -13,7 +13,12 @@ description: Simulated a planer multi-body dynamics of a jack in the box with ex
 This project simulates a planer multi-body dynamics of a jack in the box. In the simulation, external forces are applied to the box. While the jack is falling freely, it will then experience some collisions with the box's walls.
 
 ### Video demo
-{% include elements/video.html id="pkTauVynRE8" %}
+<!-- {% include elements/video.html id="pkTauVynRE8" %} -->
+
+<video width="720" height="480" controls="controls">
+  <source src="https://github.com/Marnonel6/marnonel6.github.io/blob/main/assets/Jack_in%20_box2.mp4" type="video/mp4">
+</video>
+
 <br>
 ### System schematic
 <img src="{{ site.url }}{{ site.baseurl }}/assets/jack_frames.jpg" style="height: 600px; width:600px;"/>
