@@ -33,6 +33,7 @@ A GUI was designed to interface with the pick and place robot. On the left there
 - GUI must display helpfull information
 - $50 budget, 1 x 3D print part and scrap material in lab
 
+<br>
 ### 16 Cubes stacked with an alternating pattern
 ![IMG_3846](https://user-images.githubusercontent.com/60977336/209712768-f1a2db69-328c-48cf-a503-2f378dcc6fe1.JPEG)
 
