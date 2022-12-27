@@ -1,18 +1,26 @@
 ---
 name: PLC Autonomous Cube Stacker
-tools: [PLC, Ladder Logic and Structured Text, Proportional control, Mechatronics]
+tools: [PLC, Ladder Logic and Structured Text, C++, Proportional control, Mechatronics]
 image: https://marnonel6.github.io/assets/homepage_cube_stacker_4x_speed_indicator.gif
 description: Built an autonomous cube stacker with a user interface capable of stacking 16 cubes.
 ---
 
-# Stereo Visual Odometry
+# PLC Autonomous Cube Stacker
 <br>
 ### Brief overview
 <br>
-Visual odometry is the process of determining the position and orientation of a mobile robot by using camera images. A stereo camera setup and KITTI grayscale odometry dataset are used in this project. KITTI dataset is one of the most popular datasets and benchmarks for testing visual odometry algorithms. This project aims to use OpenCV functions and apply basic cv principles to process the stereo camera images and build visual odometry using the KITTI dataset. 
+<!-- Visual odometry is the process of determining the position and orientation of a mobile robot by using camera images. A stereo camera setup and KITTI grayscale odometry dataset are used in this project. KITTI dataset is one of the most popular datasets and benchmarks for testing visual odometry algorithms. This project aims to use OpenCV functions and apply basic cv principles to process the stereo camera images and build visual odometry using the KITTI dataset.  -->
+Programmed a PLC (Ladder Logic and Structured Text) and an Arduino (C++) to perform autonomous cube stacking. The pick and place robot was designed and built with a $50 budget and scrap materials from the lab. A GUI was designed were a user can input the stacking specifications for the tower in terms or stack height, up to 16 cubes, and stack pattern, silver or black cubes. After the user added the stack pattern the robot will start stacking the cubes based on the user defined pattern untill the pattern is completed.
+
+
+The GUI displays the current cube number, Kp gain, error value used in the P-controller 
 
 ### Video demo
-{% include elements/video.html id="k9cyyoGHMWg" %}
+<!-- {% include elements/video.html id="k9cyyoGHMWg" %} -->
+
+<video width="720" height="480" controls="controls">
+  <source src="https://user-images.githubusercontent.com/60977336/209709728-f2af391d-850f-4d6b-9443-56a8572f6afc.mp4" type="video/mp4">
+</video>
 
 ### Algorithm descriptions
 <br>
