@@ -30,7 +30,7 @@ Invented, built, and tested a thrust vector controlled scaled rocket for my unde
     target="_blank"
     class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2"
     href="/assets/20852657-Nel.pdf"
-    >Resume.pdf</a
+    >Thesis_TVC.pdf</a
   >
 </li>
 <br>
