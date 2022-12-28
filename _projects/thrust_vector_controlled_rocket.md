@@ -1,7 +1,7 @@
 ---
 name: Autonomous thurst vector controlled rocket
 tools: [C++, PCB, PID, EAGLE, CAD, WiFi Microcontroller]
-image: https://marnonel6.github.io/assets/HockeyBot2.gif
+image: https://marnonel6.github.io/assets/Launch_Comp.gif
 description: Invented, built, and tested a thrust vector controlled scaled rocket.
 ---
 
@@ -15,13 +15,9 @@ Invented, built, and tested a thrust vector controlled scaled rocket for my unde
 
 ### Video demo
 
-<div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/639a5d5950cffc00254c32ee?autoplay=true" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div><p style="font-size: 12px; text-align: right;">Video edited on <a href="https://www.kapwing.com/video-editor">Kapwing</a></p>
-
 <video width="720" height="480" controls="controls">
-  <source src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/60977336/209871829-384275b5-b4c0-40c1-b5ab-553239c13085.mp4" type="video/mp4">
 </video>
-
-
 
 
 <br>
