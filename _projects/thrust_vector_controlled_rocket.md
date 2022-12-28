@@ -20,6 +20,14 @@ Invented, built, and tested a thrust vector controlled scaled rocket for my unde
 </video>
 
 
+### Parachute system
+The parachute system utilizes a spring to eject the parachute and the door when a servo is turned that is blocking the door. The servo is opened at 90% of the apogee altitude. Altitude of the rocket is calculated by using a barometer, a temperature sensor and knowing the height above sea level.
+
+<video width="720" height="480" controls="controls">
+  <source src="https://user-images.githubusercontent.com/60977336/209882755-b34d157f-3427-46ed-bdff-1a86099825ec.mp4" type="video/mp4">
+</video>
+
+
 <br>
 <li class="inline-block">
   <a
