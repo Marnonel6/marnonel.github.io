@@ -33,6 +33,17 @@ The parachute system utilizes a spring to eject the parachute and the door when 
 ![FlightContoller](https://user-images.githubusercontent.com/60977336/209883891-9514522a-a0f9-4447-b11e-be9a7cf886ee.png)
 
 <br>
+### Mission control android APP
+<video width="720" height="480" controls="controls">
+  <source src="https://user-images.githubusercontent.com/60977336/209884377-9483c9a4-38a3-41ef-9fac-24a6cccb6972.mp4" type="video/mp4">
+</video>
+
+<br>
+### Launchpad motor ignition connection
+![Launchpad](https://user-images.githubusercontent.com/60977336/209884498-70993136-09b6-47f6-b52f-d9abc897dd7f.png)
+
+
+<br>
 <li class="inline-block">
   <a
     target="_blank"
