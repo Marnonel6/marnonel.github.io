@@ -1,7 +1,7 @@
 ---
 name:  Robot arm pen grab
 tools: [Robot kinematics, OpenCV, Python]
-image: https://marnonel6.github.io/assets/RRT_m.gif
+image: https://marnonel6.github.io/assets/PenGrab_Home_comp.gif
 description: Coded a Pincher 4-DOF robot arm in Python to grab the pen through inverse kinematics
 ---
 
