@@ -5,7 +5,7 @@ image: https://marnonel6.github.io/assets/Launch_Comp.gif
 description: Invented, built, and tested a thrust vector controlled scaled rocket.
 ---
 
-# Autonomous airhockey robot
+# Autonomous thurst vector controlled rocket
 <br>
 ### Brief overview
 <br>
