@@ -72,5 +72,5 @@ The following steps are used to solve for impact updates:
     
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/JiasenZheng/Physics_Engine_From_Scratch" text="GitHub" %}
+{% include elements/button.html link="https://github.com/Marnonel6/PhysicsSimulator_jack_in_a_box" text="GitHub" %}
 </p>
