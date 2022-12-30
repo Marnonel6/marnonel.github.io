@@ -16,7 +16,7 @@ I graduated in 2021 with a Bachelor's degree in Robotic/Mechatronic, Mechanical
 <br>
 In my final year I was required to generate, design and build a working project and write an undergraduate thesis.  My thesis was approved at the end of 2021 with the title "Design and build a Thrust vector controlled model rocket" and it was inspired by a fellow South Africa, Elon Musk. I achieved a Cum Laude grade for my thesis and won an award.<br>
 <br>
-My main interests in robotics are: Autonomous Vehicle, UAVs, Embedded systems, SLAM, Path planning, Machine Learning, Computer Vision,  Automation,  Control systems design.<br>
+My main interests in robotics are: Autonomous Vehicle, UAVs, Embedded systems, R&D, SLAM, Path planning, Machine Learning, Computer Vision,  Automation,  Control systems design.<br>
 <br>
 Through the MSR program, I look forward to joining the robotics industry and <b>pushing the boundaries of ROBOTICS!</b>
 </font>
