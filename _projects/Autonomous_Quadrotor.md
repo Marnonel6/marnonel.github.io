@@ -20,3 +20,5 @@ Currently building an autonomous quadrotor with integrated safety features.
 
 <br>
 ### COMING SOON
+
+![Quadrotor](https://user-images.githubusercontent.com/60977336/215513644-aaad623f-fee6-4c84-bfbb-fcafb1e4eb04.jpeg)
