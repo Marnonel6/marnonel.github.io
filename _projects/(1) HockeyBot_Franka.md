@@ -25,6 +25,10 @@ The project aims to have a Franka Emika 7DOF robotic arm autonomously play airho
   <source src="https://user-images.githubusercontent.com/60977336/225454720-58e55235-0802-4ade-a01e-7cb94d5c653f.mp4" type="video/mp4">
 </video>
 
+<video width="960" height="640" controls="controls">
+  <source src="https://user-images.githubusercontent.com/60977336/225454720-58e55235-0802-4ade-a01e-7cb94d5c653f.mp4" type="video/mp4">
+</video>
+
 ### Collaborations
 * Marno (Marthinus) Nel 
     - Team Leader, Systems Integrator (Git), Trajectory calculations, Robot manipulation, and assisted on Computer vision.
