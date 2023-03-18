@@ -13,7 +13,6 @@ description: Programmed a quadruped robot dog to autonomously navigate its surro
 </p>
 
 ### Brief overview
-<!-- The project aims to have a Franka Emika 7DOF robotic arm autonomously play airhockey againts an opponent. The project was inspired by the fast dynamics of the game and the variability in game play which does not allow any hard coding and decisions need to be made in real time. Our project used a Realsense camera with OpenCV to detect the puck and calculate the transformation of the puck relative to the robot. The puck coordinates are then used to calculate the predicted trajectory of the puck and estimate where the robot should hit the puck along the predicted trajectory line. Robot Operating System (ROS2) and the MoveIt2 motion planning framework are used to interface with the robot and control its movements. A ROS2 python API wrapper was developed as it was not currently avaible when this project was developed. The custom API is in the moveit_helper package. -->
 
 Guide dogs have been used for decades to assist visually impaired individuals in navigating their surroundings. However, these dogs come at a high cost, ranging from $20,000 to $40,000. Additionally, they are red-green color blind, which limits their ability to interpret street signs and other visual cues.
 
@@ -23,18 +22,13 @@ Overall, this project represents an exciting advancement in assistive technology
 
 <br>
 ### Introduction video
-<!-- <video width="720" height="480" controls="controls">
-  <source src="https://user-images.githubusercontent.com/60977336/225454720-58e55235-0802-4ade-a01e-7cb94d5c653f.mp4" type="video/mp4">
-</video> -->
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226077809-9e7cc075-c3f5-4d00-9c90-167d8f858de7.mp4" type="video/mp4">
 </video>
 
-## Concepts and Overall System Architecture
-
 ### Object recognition - YOLOv7
 
-YOLOv7 was the chosen object detection algorithm. It is a real-time object detection algorithm that is based on the You Only Look Once (YOLO) architecture and consists of convolutional neural networks (CNNs). A python ROS2 YOLOv7 package was developed with Rintaroh Shima for real-time object detection. Below is a sample video of the custom trained model.
+YOLOv7 was the chosen object detection algorithm. It is a real-time object detection algorithm that is based on the You Only Look Once (YOLO) architecture and consists of convolutional neural networks (CNNs). A python ROS2 YOLOv7 package was developed with Rintaroh Shima for real-time object detection. Below is a sample video of the custom trained model. An Intel RealSense D435i was mounted on Go1 with its frame specifications at 620x480 and 30fps.
 
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226078995-964fbce5-dd42-4553-b531-df5996f69850.mp4" type="video/mp4">
@@ -50,7 +44,7 @@ A custom dataset was created (Link above) and hand labeled. In order to ensure t
 
 ![yolov7_test_data_2](https://user-images.githubusercontent.com/60977336/226084557-815a6129-ed7d-4d68-bfa1-9e4a4e94a4f4.jpg)
 
-A confusion matrix was generated 
+A confusion matrix was generated which displayed a 75% average true positive over all 3 classes for the custom trained model.
 
 ![confusion_matrix](https://user-images.githubusercontent.com/60977336/226084551-653490a5-0fa7-47d6-ba16-141a5a0a84f8.png)
 
