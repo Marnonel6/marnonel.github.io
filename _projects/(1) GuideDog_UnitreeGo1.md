@@ -52,6 +52,8 @@ My custom object detection model achieved a mean Average Precision (mAP) score o
 
 ![results](https://user-images.githubusercontent.com/60977336/226084553-42ea7893-e17f-4351-ab5f-288e6e5c72d3.png)
 
+The model achieved an average F1 score of 0.77 across a confidence range of 0.1 to 0.8. This suggests that the model performs well at a range of confidence levels and is able to accurately detect and classify objects with a high degree of precision and recall.
+
 ![yolov7_guide_dog](https://user-images.githubusercontent.com/60977336/226084554-6955c8d6-c14c-4048-9177-05a4b6df1fac.jpg)
 
 
