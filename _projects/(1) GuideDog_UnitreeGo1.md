@@ -28,7 +28,7 @@ Overall, this project represents an exciting advancement in assistive technology
 
 ### Object recognition - YOLOv7
 
-YOLOv7 was the chosen object detection algorithm. It is a real-time object detection algorithm that is based on the You Only Look Once (YOLO) architecture and consists of convolutional neural networks (CNNs). A python ROS2 YOLOv7 package was developed with Rintaroh Shima for real-time object detection. Below is a sample video of the custom trained model. An Intel RealSense D435i was mounted on Go1 with its frame specifications at 620x480 and 30fps.
+YOLOv7 was the chosen object detection algorithm. It is a real-time object detection algorithm that is based on the You Only Look Once (YOLO) architecture and consists of convolutional neural networks (CNNs). A python ROS2 YOLOv7 package was developed with Rintaroh Shima for real-time object detection. Below is a sample video of the custom trained model. An Intel RealSense D435i was mounted on Go1 with its frame specifications at 620x480 and 30fps. The model was downsized and deployed on a Nvidia Jetson Nano on Go1.
 
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226078995-964fbce5-dd42-4553-b531-df5996f69850.mp4" type="video/mp4">
@@ -58,7 +58,7 @@ The model achieved an average F1 score of 0.77 across a confidence range of 0.1 
 
 
 ### Voice recognition
-The use of the Picovoice deep learning voice recognition library has enabled the creation of a custom wake word "Hey Willie" and commands like walk, stop, stand up, lay down, bark, and increase or decrease speed. By implementing this library, the user is able to control the movements of Go1 with their voice while navigating around. A ROS2 C++ and Python package was developed to hadle the voice recognition and translate the voice commands to desired controls. I utilized gTTS (Google Text-to-Speech), a Python library that generates text to speech audio files. I generate audio files that Go1 uses to effectively communicate with the user. 
+The use of the Picovoice deep learning voice recognition library has enabled the creation of a custom wake word "Hey Willie" and commands like walk, stop, stand up, lay down, bark, and increase or decrease speed. By implementing this library, the user is able to control the movements of Go1 with their voice while navigating around. A ROS2 C++ and Python package was developed to hadle the voice recognition and translate the voice commands to desired controls. I utilized gTTS (Google Text-to-Speech), a Python library that generates text to speech audio files. I generate audio files that Go1 uses to effectively communicate with the user. The package was deployed on a Nvidia Jetson Nano on Go1.
 
 <video width="480" height="720" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226080702-4d36313b-e586-4ff9-bc0f-f7c119dfe256.mp4" type="video/mp4">
