@@ -85,6 +85,19 @@ The increased NAV2 footprint that encapsulates the user ensures dynamic obstacle
   <source src="https://user-images.githubusercontent.com/60977336/226083479-69d3d70b-84c8-44f1-b8c8-3f050e961807.mp4" type="video/mp4">
 </video>
 
+## Future work
+* Detect pedestrian road signs with computer vision and machine learning and lead the
+  human in an appropriate way. Examples: Crosswalk signals, Crosswalk signs,
+  Crosswalk, Stop sign, etc.
+* Detect different types of everyday obstacle and lead the human in an appropriate way. Examples: Stairs, road   crossing, curb, closed door, etc.
+* GPS utilization for navigating to a specified location and localization.
+* Connect Go1 to the internet for an Alexa like experience.
+* Update Go1's Jetson Xavier NX and preform all computations onboard Go1.
+* Preform sensor fusion between the ICP odometry, Go1's odometry and the GPS.
+* Utilize Chat GPT API for natural language processing and response to commands.
+
+## Significant people who contributed to the project:
+The guide dog project was my own individual project, but some subsets of this project had collaborations with Nick Morales, Katie Hughes, Ava Zahedi and Rintaroh Shima. Thank you all for you contributions.
 
 
 <p class="text-center">
