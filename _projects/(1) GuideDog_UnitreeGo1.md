@@ -48,6 +48,8 @@ A confusion matrix was generated which displayed a 75% average true positive ove
 
 ![confusion_matrix](https://user-images.githubusercontent.com/60977336/226084551-653490a5-0fa7-47d6-ba16-141a5a0a84f8.png)
 
+My custom object detection model achieved a mean Average Precision (mAP) score of 0.85 when the intersection over union (IoU) threshold was set at 0.5, indicating good performance in localizing objects. The model also achieved a mAP score of 0.58 across a range of IoU thresholds from 0.5 to 0.95, indicating reasonable performance in detecting objects with varying levels of overlap. The model achieved a precision of 0.88 and a recall of 0.82, indicating that the model is able to accurately identify a high percentage of relevant objects while minimizing the number of false positives. These metrics are important indicators of the overall performance of an object detection model and suggest that the model is well-suited for a variety of applications that require accurate detection and localization of objects.
+
 ![results](https://user-images.githubusercontent.com/60977336/226084553-42ea7893-e17f-4351-ab5f-288e6e5c72d3.png)
 
 ![yolov7_guide_dog](https://user-images.githubusercontent.com/60977336/226084554-6955c8d6-c14c-4048-9177-05a4b6df1fac.jpg)
