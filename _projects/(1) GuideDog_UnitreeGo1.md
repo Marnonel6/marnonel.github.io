@@ -38,6 +38,18 @@ to reach the home x- and y-coordinates with an offset in the z. It then reaches 
 and moves back up slightly. This slight increase in height allows the robot flexibility while moving, so that if it pushes 
 down during movement, it will not apply a force into the table while still keeping the paddle level with the table.
 
+
+![yolov7_test_data](https://user-images.githubusercontent.com/60977336/226084555-74ed7a13-bb35-461a-8069-ade6f4d9e4a5.jpg)
+
+![yolov7_test_data_2](https://user-images.githubusercontent.com/60977336/226084557-815a6129-ed7d-4d68-bfa1-9e4a4e94a4f4.jpg)
+
+![confusion_matrix](https://user-images.githubusercontent.com/60977336/226084551-653490a5-0fa7-47d6-ba16-141a5a0a84f8.png)
+
+![results](https://user-images.githubusercontent.com/60977336/226084553-42ea7893-e17f-4351-ab5f-288e6e5c72d3.png)
+
+![yolov7_guide_dog](https://user-images.githubusercontent.com/60977336/226084554-6955c8d6-c14c-4048-9177-05a4b6df1fac.jpg)
+
+
 ### Voice recognition
 
 <video width="480" height="720" controls="controls">
