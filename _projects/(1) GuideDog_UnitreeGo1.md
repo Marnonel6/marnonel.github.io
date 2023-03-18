@@ -1,7 +1,7 @@
 ---
 name: Guide dog - Unitree Go1
 tools: [ROS2, C++, YOLOv7/Machine learning, NAV2/Navigation, Rtabmap/3D SLAM, Python, Computer vision]
-image: https://marnonel6.github.io/assets/HockeyBot2.gif
+image: https://marnonel6.github.io/assets/guide_dog.gif
 description: Programmed a quadruped robot dog to autonomously navigate its surroundings with the aid of voice recognition and a custom-trained object detection model.
 
 ---
