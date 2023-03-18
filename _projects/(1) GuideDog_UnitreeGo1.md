@@ -101,5 +101,5 @@ The guide dog project was my own individual project, but some subsets of this pr
 
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/Marnonel6/Franka_HockeyBot" text="GitHub" %}
+{% include elements/button.html link="https://github.com/Marnonel6/Guide_dog_Unitree_Go1" text="GitHub" %}
 </p>
