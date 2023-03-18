@@ -9,17 +9,15 @@ description: Programmed a quadruped robot dog to autonomously navigate its surro
 # Guide dog - Unitree Go1
 <br>
 ### Brief overview
-<br>
 <!-- The project aims to have a Franka Emika 7DOF robotic arm autonomously play airhockey againts an opponent. The project was inspired by the fast dynamics of the game and the variability in game play which does not allow any hard coding and decisions need to be made in real time. Our project used a Realsense camera with OpenCV to detect the puck and calculate the transformation of the puck relative to the robot. The puck coordinates are then used to calculate the predicted trajectory of the puck and estimate where the robot should hit the puck along the predicted trajectory line. Robot Operating System (ROS2) and the MoveIt2 motion planning framework are used to interface with the robot and control its movements. A ROS2 python API wrapper was developed as it was not currently avaible when this project was developed. The custom API is in the moveit_helper package. -->
 
 Guide dogs are assistance dogs trained to lead visually impaired people through everyday life to different destinations around everyday obstacles. The goal of this project is to program a Unitree Go1 quadruped robot dog to be able to understand everyday obstacles and autonomously navigate and lead a human around them to their destination. Guide dogs cost between $20,000 - $40,000 and are red-green color blind and thus incapable of interpreting street signs whereas a camera on a robot dog can be programmed to interpret street signs and plan its path accordingly.
+<br>
 
 ### Video
-
 <!-- <video width="720" height="480" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/225454720-58e55235-0802-4ade-a01e-7cb94d5c653f.mp4" type="video/mp4">
 </video> -->
-
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226077809-9e7cc075-c3f5-4d00-9c90-167d8f858de7.mp4" type="video/mp4">
 </video>
