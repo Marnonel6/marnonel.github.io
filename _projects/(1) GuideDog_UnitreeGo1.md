@@ -31,9 +31,10 @@ Overall, this project represents an exciting advancement in assistive technology
 </video>
 
 ## Concepts and Overall System Architecture
-The process loop of the robot is as follows:
 
 ### Object recognition - YOLOv7
+
+YOLOv7 was the chosen object detection algorithm. It is a real-time object detection algorithm that is based on the You Only Look Once (YOLO) architecture and consists of convolutional neural networks (CNNs). A python ROS2 YOLOv7 package was developed with Rintaroh Shima for real-time object detection. Below is a sample video of the custom trained model.
 
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226078995-964fbce5-dd42-4553-b531-df5996f69850.mp4" type="video/mp4">
@@ -43,15 +44,13 @@ The process loop of the robot is as follows:
 {% include elements/button.html link="https://universe.roboflow.com/guidedogunitreego1/guide_dog-fhaac" text="Custom guide dog dataset" %}
 </p>
 
-* Upon startup, the robot follows a start-up sequence to reach its home position. The robot follows a series of waypoints 
-to reach the home x- and y-coordinates with an offset in the z. It then reaches down to grasp the paddle (with an adapter) 
-and moves back up slightly. This slight increase in height allows the robot flexibility while moving, so that if it pushes 
-down during movement, it will not apply a force into the table while still keeping the paddle level with the table.
-
+A custom dataset was created (Link above) and hand labeled. In order to ensure that the model was as general as possible the photos where augmented in several different ways (Contrast, stretched, flipped, blurred, etc). Below is the labeled test data and the final models predictions.
 
 ![yolov7_test_data](https://user-images.githubusercontent.com/60977336/226084555-74ed7a13-bb35-461a-8069-ade6f4d9e4a5.jpg)
 
 ![yolov7_test_data_2](https://user-images.githubusercontent.com/60977336/226084557-815a6129-ed7d-4d68-bfa1-9e4a4e94a4f4.jpg)
+
+A confusion matrix was generated 
 
 ![confusion_matrix](https://user-images.githubusercontent.com/60977336/226084551-653490a5-0fa7-47d6-ba16-141a5a0a84f8.png)
 
