@@ -65,78 +65,28 @@ The use of the Picovoice deep learning voice recognition library has enabled the
 </video>
 
 ### Autonomous navigation
+(This whole section was done in collaboration with Nick Morales)
+
+One of the key tasks for this project was enabling the Unitree Go1 robot to navigate autonomously around a mapped/unmapped environment while avoiding obstacles. To achieve this, we decided to leverage ROS 2's Nav2 package, a software stack specifically designed for this purpose.
+
+We utilized the RoboSense RS-Helios-16P 3D LiDAR that comes with the Unitree Go1 EDU Plus model. RTAB-Map was our choice of processing software for the point cloud data, which offers 3D mapping capabilities. The package provides the Nav2 stack with ICP odometry and SLAM updates on the robot's position as well as objects in the environment. Nav2 then leveraged this information to generate local and global costmaps, which allowed it to plan collision-free paths.
+
+A ROS 2 node was developed in C++ that sends commands to Nav2 to plan and execute paths to a desired pose. The node was responsible for enabling the robot to follow a given path while avoiding obstacles in real-time, thus ensuring safe and efficient navigation.
+
 
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226083481-d9013ea6-5fef-463e-a67c-af217bf6d331.mp4" type="video/mp4">
 </video>
 
-Calculates the predicted trajectory of the puck and the play waypoints for the robot by using two
-puck coordinates from computer vision. The node handles collisions by reflecting the impact angle about the normal line. The waypoints for the robot to hit the puck are constrained by the robot's workspace on the air hockey table. The most optimal waypoints are selected by considering all four sides of the robot's workspace. The robot will then move to the first waypoint that is on the predicted trajectory line of the puck and then move along the line to the second waypoint and hit the puck. A plot is dynamically generated and updated each time a new trajectory is calculated. The robot blocks if the trajectory is out of the workspace and unreachable.
 
 ### Dynamic obstacle avoidance
+
+The increased NAV2 footprint that encapsulates the user ensures dynamic obstacle avoidance not just for the robot, but also the user behind Go1. This adjustment helped minimize the risk of collisions and improved the overall user experience by allowing the robot to navigate in a safe and efficient manner.
 
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/226083479-69d3d70b-84c8-44f1-b8c8-3f050e961807.mp4" type="video/mp4">
 </video>
 
-* After receiving waypoint and goal positions, the robot receives service calls to move to those points, thereby meeting 
-the puck along its trajectory and hitting it. If there is an edge case where the robot cannot successfully meet the puck 
-given its trajectory, the robot will block instead.
-
-
-<!-- <br>
-### Manipulation
-<br>
-The manipulation package relies on several different `nodes` in order to function:
-1. **manipulation_cap** provides low-level position and orientation sensing services, along with error recovery, movements, and gripper grasping
-2. **manipulation_macro_a** provides position movement services for image captures using the RealSense
-3. **manipulation_press** provides a pressing service to cap the markers
-4. **manipulation_local** provides manipulation services for moving in between trays
-5. **manipulation_pnp** provides pick and place services between the feed and assembly trays
-6. **debug_manipulation** logs the external forces experienced by the robot
-7. **plan_scene** provides a planning scene for simulation-based motion planning in Moveit
-8. **limit_set** provides services to be used with the franka_control file launched prior to Moveit being launched. It allows the user to reconfigure the collision limits on the robot. 
-
-
-Manipulation also relies on a python **manipulation** package with translational, array position, and verification utilities.
-A scene. yaml file is used for specifying parameters in the plan_scene node and the main manipulation movements scene elsewhere in the project.
-
-### Perception
-<br>
-* All the computer vision algorithms are embedded in the **vision** python package, functions in the package can be called in a node by 
-```import <package name>.<script name>``` such as 
-```shell
-import vision.vision1
-```
-* **sample_capture.py**:  A helper python script to capture images using RealSense 435i RGB-D camera
-    1. Connect the RealSense camera to your laptop
-    2. Run the python script in a terminal:
-    ```shell
-    python3 sample_capture.py
-    ```
-    3. Press 'a' to capture and save an image and use 'q' to quit the image window
-* **hsv_slider.py**: A helper python script to find the appropriate HSV range for color detection
-    1. Add the path of the image to  `frame = cv. imread()` to read the image
-    2. Run the python script in a terminal:
-    ```shell
-    python3 hsv_slider.py
-    ```
-    3. A window of the original image and a window of HSV image with slide bars will show up
-    4. Test with HSV slide bars to find an appropriate range
-* **vision.py** A python script to detect contours and return a list of hue values
-    1. For testing purposes, an image can be loaded by setting the path to `image = cv. imread()`
-    2. Run the python script in a terminal:
-    ```shell
-    python3 vision1.py
-    ```
-    3. A processed image with contours and a list of hue values will be returned
-
-    The node that uses this library is called vision_bridge.
-* **vision_bridge node**: Node that publishes a stream of ROS Images and implements a service **capture** that returns a list of H values of the detected markers and caps from an image.
-    1. run `rosservice call /capture` and specify the **tray_location** to run the service.
-        * tray_location 1 : Represents Assembly Location
-        * tray_location 2 : Represents Markers Location
-        * tray_location 3 : Represents Caps Location -->
 
 
 <p class="text-center">
