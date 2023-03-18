@@ -27,10 +27,10 @@ Guide dogs are assistance dogs trained to lead visually impaired people through 
 ## Concepts and Overall System Architecture
 The process loop of the robot is as follows:
 
-### Start-Up Sequence
+### Object recognition - YOLOv7
 
-<video width="720" height="480" controls="controls">
-  <source src="https://user-images.githubusercontent.com/39091881/206932493-6110ad55-7bdc-4c57-898e-caeab954bc97.mp4" type="video/mp4">
+<video width="960" height="640" controls="controls">
+  <source src="https://user-images.githubusercontent.com/60977336/226078995-964fbce5-dd42-4553-b531-df5996f69850.mp4" type="video/mp4">
 </video>
 
 * Upon startup, the robot follows a start-up sequence to reach its home position. The robot follows a series of waypoints 
