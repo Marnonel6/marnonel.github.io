@@ -69,9 +69,7 @@ The use of the Picovoice deep learning voice recognition library has enabled the
 
 One of the key tasks for this project was enabling the Unitree Go1 robot to navigate autonomously around a mapped/unmapped environment while avoiding obstacles. To achieve this, we decided to leverage ROS 2's Nav2 package, a software stack specifically designed for this purpose.
 
-We utilized the RoboSense RS-Helios-16P 3D LiDAR that comes with the Unitree Go1 EDU Plus model. RTAB-Map was our choice of processing software for the point cloud data, which offers 3D mapping capabilities. The package provides the Nav2 stack with ICP odometry and SLAM updates on the robot's position as well as objects in the environment. Nav2 then leveraged this information to generate local and global costmaps, which allowed it to plan collision-free paths.
-
-A ROS 2 node was developed in C++ that sends commands to Nav2 to plan and execute paths to a desired pose. The node was responsible for enabling the robot to follow a given path while avoiding obstacles in real-time, thus ensuring safe and efficient navigation.
+We utilized the RoboSense RS-Helios-16P 3D LiDAR that comes with the Unitree Go1 EDU Plus model. RTAB-Map was our choice of processing software for the point cloud data, which offers 3D mapping capabilities. The package provides the Nav2 stack with ICP odometry and SLAM updates on the robot's position as well as objects in the environment. Nav2 then leveraged this information to generate local and global costmaps, which allowed it to plan collision-free paths. A ROS 2 node was developed in C++ that sends commands to Nav2 to plan and execute paths to a desired pose. The node was responsible for enabling the robot to follow a given path while avoiding obstacles in real-time, thus ensuring safe and efficient navigation.
 
 
 <video width="960" height="640" controls="controls">
