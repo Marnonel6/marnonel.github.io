@@ -33,6 +33,10 @@ The process loop of the robot is as follows:
   <source src="https://user-images.githubusercontent.com/60977336/226078995-964fbce5-dd42-4553-b531-df5996f69850.mp4" type="video/mp4">
 </video>
 
+<p class="text-center">
+{% include elements/button.html link="https://universe.roboflow.com/guidedogunitreego1/guide_dog-fhaac" text="Custom guide dog dataset" %}
+</p>
+
 * Upon startup, the robot follows a start-up sequence to reach its home position. The robot follows a series of waypoints 
 to reach the home x- and y-coordinates with an offset in the z. It then reaches down to grasp the paddle (with an adapter) 
 and moves back up slightly. This slight increase in height allows the robot flexibility while moving, so that if it pushes 
