@@ -44,7 +44,7 @@ A custom dataset was created (Link above) and hand labeled. In order to ensure t
 
 ![yolov7_test_data_2](https://user-images.githubusercontent.com/60977336/226084557-815a6129-ed7d-4d68-bfa1-9e4a4e94a4f4.jpg)
 
-The confusion matrix indecates the the model achieved a average true positive rate of 75% and a false negative rate of 25% over all the classes, indicating that the model is able to accurately detect and classify objects in images with a relatively high degree of precision and recall. Furthermore, the model achieved a false positive rate of 0% and a true negative rate of 100% on average, suggesting that it is highly accurate in distinguishing between positive and negative instances. These results are promising and indicate that the model is a reliable and accurate solution for object detection tasks within the classes and in the setting which the data set was taken.
+The confusion matrix indicates the the model achieved a average true positive rate of 75% and a false negative rate of 25% over all the classes, indicating that the model is able to accurately detect and classify objects in images with a relatively high degree of precision and recall. Furthermore, the model achieved a false positive rate of 0% and a true negative rate of 100% on average, suggesting that it is highly accurate in distinguishing between positive and negative instances. These results are promising and indicate that the model is a reliable and accurate solution for object detection tasks within the classes and in the setting which the data set was taken.
 
 ![confusion_matrix](https://user-images.githubusercontent.com/60977336/226084551-653490a5-0fa7-47d6-ba16-141a5a0a84f8.png)
 
