@@ -11,6 +11,9 @@ description: Developing an autonomous drone control and path planning package wi
 <br>
 # Ongoing project!
 <br>
+
+![DSC03642](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/582d1994-ba0f-4c92-823f-b5a3b7a017d8)
+
 <br>
 ### Brief overview
 <br>
