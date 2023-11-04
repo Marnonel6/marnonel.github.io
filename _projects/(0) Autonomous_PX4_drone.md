@@ -2,7 +2,7 @@
 ---
 name: Autonomous Drone built from scratch
 tools: [ROS2, C++, Path Planning, Gazebo, SITL, PX4, Kinematics, Machine Learning]
-image: https://marnonel6.github.io/assets/EKF_SLAM.png
+image: https://marnonel6.github.io/assets/Drone.JPG
 description: Developing an autonomous drone control and path planning package with ROS2(C++) for off-board (RPi) control of a Pixhawk over uXRCE-DDS (PX4). The drone is custom built from scratch.
 
 ---
