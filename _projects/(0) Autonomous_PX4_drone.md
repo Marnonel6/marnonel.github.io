@@ -1,4 +1,3 @@
-
 ---
 name: Autonomous Drone built from scratch
 tools: [ROS2, C++, Path Planning, Gazebo, SITL, PX4, Kinematics, Machine Learning]
