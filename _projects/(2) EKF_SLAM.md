@@ -20,6 +20,7 @@ Developed a ROS2 C++ EKF SLAM package from scratch for a turtlebot. A Simulation
 
 ### Simulation image
 
+![Screenshot from 2023-03-16 20-05-21](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/13729881-cee5-4ab4-a8d9-473d76a6be5b)
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Marnonel6/EKF_SLAM_from_scratch" text="GitHub" %}
