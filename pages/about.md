@@ -6,10 +6,14 @@ weight: 2
 ---
 
 # **About Me**
+
+![MSR_headshot_smile](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/826a6158-521b-4f38-b654-c0794d46c22c)
+
+
 <br>
 <font size="+1">
 <!-- Hi, I am <b>Jiasen (Jason) Zheng</b> :wave:.<br> -->
-
+  
 Hi, I am <b>Marthinus (Marno) Nel</b><br>
 <br>
 I am a robotics engineer with a passion for solving complex challenges using cutting-edge technology.
