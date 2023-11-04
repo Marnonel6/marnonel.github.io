@@ -27,6 +27,11 @@ Developing an autonomous drone control and path planning package with ROS2(C++) 
 ### Simulation Video (SITL Gazebo)
 
 ### Custom built drone
+![Drone1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/72938bc9-56bb-4918-a3cf-ca0e6f9d8850)
+
+
+
+
 
 <!--<p class="text-center">
 {% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control" text="GitHub" %}
