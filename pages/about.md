@@ -8,6 +8,7 @@ weight: 2
 # **About Me**
 
 ![MSR_headshot_smile](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/826a6158-521b-4f38-b654-c0794d46c22c)
+![LinkedIn_Banner](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/60813a2a-f303-49be-ae6f-5f85c3c40bb1)
 
 
 <br>
