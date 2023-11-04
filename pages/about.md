@@ -10,8 +10,6 @@ weight: 2
 <font size="+1">
 <!-- Hi, I am <b>Jiasen (Jason) Zheng</b> :wave:.<br> -->
 
-![MSR_Headshot](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/13053fb7-8dd9-40f5-ade1-1182db42d116)
-
 Hi, I am <b>Marthinus (Marno) Nel</b><br>
 <br>
 I am a robotics engineer with a passion for solving complex challenges using cutting-edge technology.
