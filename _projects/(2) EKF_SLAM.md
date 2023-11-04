@@ -14,7 +14,10 @@ Developed a ROS2 C++ EKF SLAM package from scratch for a turtlebot. A Simulation
 
 
 ### Simulation Video demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W38wfYEdpt4?si=AXl_GuJwN86Q0bPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="960" height="640" src="https://www.youtube.com/embed/W38wfYEdpt4?si=AXl_GuJwN86Q0bPT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### RVIZ visualization with actual robot
+<iframe width="960" height="640" src="https://www.youtube.com/embed/cNT4cXOhHP0?si=ThpLoNylNNkDvCO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Simulation image
 
