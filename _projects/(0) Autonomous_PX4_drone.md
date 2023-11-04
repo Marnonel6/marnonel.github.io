@@ -20,12 +20,16 @@ Developing an autonomous drone control and path planning package with ROS2(C++) 
 
 
 ### Autonomous RPi maiden flight
+<iframe width="960" height="640" src="https://www.youtube.com/embed/qZnLWsMiW1M?si=fXYl5OF6xzT3MKn-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Position control
 <iframe width="960" height="640" src="https://www.youtube.com/embed/L3Txc3-5ojw?si=keJWhsWYch8j4FhF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Simulation Video (SITL Gazebo)
 
 ### Custom built drone
 
-<p class="text-center">
+<!--<p class="text-center">
 {% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control" text="GitHub" %}
-</p>
+</p> -->
+
