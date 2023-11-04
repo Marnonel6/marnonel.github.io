@@ -1,6 +1,6 @@
 ---
 name: EKF SLAM from Scratch
-tools: [ROS2, C++, Gazebo, Machine Learning]
+tools: [ROS2, C++, RVIZ, Kinematics, Machine Learning]
 image: https://marnonel6.github.io/assets/HockeyBot2.gif
 description: Developed a ROS2 C++ EKF SLAM package from scratch for a turtlebot with a simulation environment.
 
@@ -10,13 +10,15 @@ description: Developed a ROS2 C++ EKF SLAM package from scratch for a turtlebot 
 <br>
 ### Brief overview
 <br>
-Developed a ROS2 C++ EKF SLAM package from scratch for a turtlebot with a simulation environment.
+Developed a ROS2 C++ EKF SLAM package from scratch for a turtlebot. A Simulation environment was also developed in RVIZ.
 
 
-### Video demo
+### Simulation Video demo
 <video width="960" height="640" controls="controls">
   <source src="https://user-images.githubusercontent.com/60977336/225454720-58e55235-0802-4ade-a01e-7cb94d5c653f.mp4" type="video/mp4">
 </video>
+
+### Simulation image
 
 
 <p class="text-center">
