@@ -20,6 +20,7 @@ Developing an autonomous drone control and path planning package with ROS2(C++) 
 
 
 ### Autonomous RPi maiden flight
+<iframe width="960" height="640" src="https://www.youtube.com/embed/L3Txc3-5ojw?si=keJWhsWYch8j4FhF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Simulation Video (SITL Gazebo)
 
