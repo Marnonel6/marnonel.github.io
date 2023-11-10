@@ -1,6 +1,6 @@
 ---
 name: Youbot Mobile Pick and Place Manipulation
-tools: [Python, Coppliasim, Trajectory Generation]
+tools: [Kinematics, Motion Planning, Path Planning, Python, Coppliasim, Trajectory Generation]
 image: https://marnonel6.github.io/assets/YouBot_Homepage.gif
 description: Controlled a Youbot to pick and place a block with user-specified positions and then simulated it in Coppeliasim.
 ---
