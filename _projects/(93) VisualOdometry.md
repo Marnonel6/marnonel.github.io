@@ -15,7 +15,8 @@ Visual odometry is the process of determining the position and orientation of a 
 KITTI dataset is one of the most popular datasets and benchmarks for testing visual odometry algorithms. This project aims to use OpenCV functions and apply basic cv principles to process the stereo 
 camera images and build visual odometry using the KITTI dataset.
 
-### Demo Video
+### SIFT Visual Odometry Demo Video [8x]
+https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/a005471a-36ff-45d8-ba68-4eabfab59101
 
 ### Disparity Map
 ![disparity_map](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/29e18797-8492-4a89-a7e0-6c274891e3a2)
