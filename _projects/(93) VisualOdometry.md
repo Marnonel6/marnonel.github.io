@@ -49,6 +49,6 @@ camera images and build visual odometry using the KITTI dataset.
 
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control" text="GitHub" %}
+{% include elements/button.html link="https://github.com/Marnonel6/computer_vision" text="GitHub" %}
 </p>
 
