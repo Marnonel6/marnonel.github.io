@@ -42,6 +42,9 @@ camera images and build visual odometry using the KITTI dataset.
 ### Presentation
 [Stereo Visual Odometry Presentation.pdf](https://github.com/Marnonel6/marnonel6.github.io/files/13320831/Stereo.Visual.Odometry.Presentation.pdf)
 
+### Write-up
+[Stereo Visual Odometry - MJ Nel.pdf](https://github.com/Marnonel6/marnonel6.github.io/files/13320838/Stereo.Visual.Odometry.-.MJ.Nel.pdf)
+
 
 
 <p class="text-center">
