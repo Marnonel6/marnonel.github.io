@@ -18,8 +18,6 @@ camera images and build visual odometry using the KITTI dataset.
 ### SIFT Visual Odometry Demo Video [4x]
 <iframe width="960" height="640" src="https://www.youtube.com/embed/XMeyRDLE4K4?si=ENV-ZfgACNpz-pgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/a005471a-36ff-45d8-ba68-4eabfab59101
-
 ### Disparity Map
 ![disparity_map](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/29e18797-8492-4a89-a7e0-6c274891e3a2)
 
