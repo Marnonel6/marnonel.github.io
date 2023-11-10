@@ -1,7 +1,7 @@
 ---
 name: Stereo Visual Odometry from scratch
 tools: [Computer vision, Kinematics, OpenCV, Python, KITTI]
-image: https://marnonel6.github.io/assets/Drone.JPG
+image: https://marnonel6.github.io/assets/VisualOdometry.png
 description: Developing a stereo visual odometry pipeline from scratch.
 
 ---
