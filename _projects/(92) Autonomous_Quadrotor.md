@@ -1,6 +1,6 @@
 ---
 name:  Autonomous quadrotor (In progress)
-tools: [Control Systems, Vive, C]
+tools: [Sensor Fusion, Control Systems, Embedded Systems, Vive, C]
 image: https://marnonel6.github.io/assets/PID_Pitch.gif
 description: Built and programmed an autonomous quadrotor from scratch
 ---
