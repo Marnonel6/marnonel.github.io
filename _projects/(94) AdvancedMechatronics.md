@@ -1,7 +1,7 @@
 ---
 name: Advanced Mechatronics
 tools: [Embedded systems, C, PIC32, OpenCV, PCB/Ciruit design, CAD, Serial]
-image: https://marnonel6.github.io/assets/LineFollower.png
+image: https://marnonel6.github.io/assets/LineFollower.JPEG
 description: Autonomous Mechatronics Embedded System (Computer Vision Line Follower)
 
 ---
