@@ -33,7 +33,7 @@ Developing an autonomous drone control and path planning package with ROS2(C++) 
 
 
 
-<!--<p class="text-center">
-{% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control" text="GitHub" %}
-</p> -->
+<p class="text-center">
+{% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control/tree/main" text="GitHub" %}
+</p>
 
