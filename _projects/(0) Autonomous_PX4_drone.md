@@ -7,9 +7,6 @@ description: Developing an autonomous drone control and path planning package wi
 ---
 
 # Autonomous Drone built from scratch
-<br>
-# Ongoing project!
-<br>
 
 <br>
 ### Brief overview
