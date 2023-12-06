@@ -17,6 +17,13 @@ But this project isn't just about technological prowess; it's a testament to add
 
 This project was born out of a vision for a more technologically advanced and sustainable agriculture sector. The backstory underscores the urgency for innovation in livestock management, positioning this autonomous drone system as a beacon of progress in an industry thirsty for technological advancements. Farms embracing this technology aren't just adopting a solution; they are ushering in a new era of precision farming. The autonomous drone's ability to patrol fields, monitor livestock, and respond swiftly to anomalies makes it an indispensable tool for modern agriculture.
 
+### Main componets
+- T-Motor motors, ESCs and propellers
+- Pixhawk 6X Flight computer (PX4 v1.14)
+- Raspberry Pi 4B (Ubuntu 22.04, ROS2 HUMBLE)
+- RTK + Base station
+- Tarot 680 Pro Sport frame
+
 ![DSC03642](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/582d1994-ba0f-4c92-823f-b5a3b7a017d8)
 
 ### Overview video
