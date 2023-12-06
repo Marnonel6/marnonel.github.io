@@ -43,7 +43,18 @@ This project was born out of a vision for a more technologically advanced and su
 ![Drone1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/72938bc9-56bb-4918-a3cf-ca0e6f9d8850)
 
 ### Reference:
+- Mier_Fields2Cover_An_open-source_2023, Mier, Gonzalo and Valente, João and de Bruin, Sytze, IEEE Robotics and Automation Letters, Fields2Cover: An Open-Source Coverage Path Planning Library for Unmanned Agricultural Vehicles, 2023
 
+@article{Mier_Fields2Cover_An_open-source_2023,
+  author={Mier, Gonzalo and Valente, João and de Bruin, Sytze},
+  journal={IEEE Robotics and Automation Letters},
+  title={Fields2Cover: An Open-Source Coverage Path Planning Library for Unmanned Agricultural Vehicles},
+  year={2023},
+  volume={8},
+  number={4},
+  pages={2166-2172},
+  doi={10.1109/LRA.2023.3248439}
+}
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control/tree/main" text="GitHub" %}
