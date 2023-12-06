@@ -19,6 +19,12 @@ This project was born out of a vision for a more technologically advanced and su
 
 ![DSC03642](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/582d1994-ba0f-4c92-823f-b5a3b7a017d8)
 
+### Overview video
+
+
+### High level program diagram
+![AgTech Drone](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/9ab9a8d6-d4f8-4776-93f2-e3e19734c19d)
+
 ### Autonomous RPi maiden flight
 <iframe width="960" height="640" src="https://www.youtube.com/embed/qZnLWsMiW1M?si=5xryIZkE3JAymTE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
