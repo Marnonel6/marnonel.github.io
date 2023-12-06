@@ -20,25 +20,23 @@ This project was born out of a vision for a more technologically advanced and su
 ![DSC03642](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/582d1994-ba0f-4c92-823f-b5a3b7a017d8)
 
 ### Overview video
-
+<iframe width="960" height="640" src="https://www.youtube.com/embed/uN1cQExSy8g?si=cFuqH2V8u7KcLStK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### High level program diagram
 ![AgTech Drone](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/9ab9a8d6-d4f8-4776-93f2-e3e19734c19d)
 
-### Autonomous RPi maiden flight
-<iframe width="960" height="640" src="https://www.youtube.com/embed/qZnLWsMiW1M?si=5xryIZkE3JAymTE5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#### Path Planning (Fields2Cover)
+
+#### Drone Control (State Machine)
 
 ### Position control
 <iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Simulation Video (SITL Gazebo)
+### Gazebo Simulation (PX4 SITL)
+<iframe width="960" height="640" src="https://www.youtube.com/embed/ahojRCN_Bg4?si=X4qH7ORprZA94zkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Custom built drone
 ![Drone1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/72938bc9-56bb-4918-a3cf-ca0e6f9d8850)
-
-
-
-
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Marnonel6/ROS2_offboard_drone_control/tree/main" text="GitHub" %}
