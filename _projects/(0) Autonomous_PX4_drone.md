@@ -128,7 +128,7 @@ The adoption of PX4 SITL not only served as a risk mitigation strategy but also 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/ahojRCN_Bg4?si=X4qH7ORprZA94zkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Custom YOLOv8 models for cattle counting
-A UAV was used to collect data video data in a feedlot environment, focusing on cattle and corral infrastructure. The collected data underwent meticulous hand-labeling, setting the stage for the development of two specialized YOLOv8 instance segmentation models—one dedicated to cattle detection and another finely tuned for identifying corral fences.
+A UAV was used to collect video data in a feedlot environment, focusing on cattle and corral infrastructure. The collected data underwent meticulous hand-labeling, setting the stage for the development of two specialized YOLOv8 instance segmentation models—one dedicated to cattle detection and another finely tuned for identifying corral fences.
 
 - Model Training and Integration:
 
@@ -136,11 +136,11 @@ A UAV was used to collect data video data in a feedlot environment, focusing on 
   
 - Smart Corral Line Detection:
 
-    These models were then coupled with sophisticated post-processing techniques to enable the algorithm to precisely locate the corral line, a critical element in managing livestock within a confined space. The technology not only identified the corral boundaries but also discerned which cattle resided within the current corral that was under inspection.
+    These models were then coupled with sophisticated post-processing techniques to enable the algorithm to precisely locate the corral line, a critical element in managing livestock within a confined space. The algorithms not only identified the corral boundaries but also discerned which cattle resided within the current corral that was under inspection.
 
 - Livestock Tracking and Inventory Management:
 
-    The algorithm then autonomously tracks cattle within the delineated corral boundaries. Two distinct horizontal orange lines served as dynamic reference points, confining the start tracking region. The result was a seamlessly orchestrated inventory management system, capable of counting and identifying cattle with high accuracy.
+    The algorithm then autonomously tracks cattle within the delineated corral boundaries to ensure that cattle are only counted once. Two distinct horizontal orange lines served as dynamic reference points, confining the start tracking region. The result was a seamlessly orchestrated inventory management system, capable of counting and identifying cattle with high accuracy and producing a cattle count for each corral.
   
 ![cattle_yolov8](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/386fbf74-6555-42e5-afde-543830e1fa2c)
 
