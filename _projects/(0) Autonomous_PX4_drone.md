@@ -106,9 +106,6 @@ In the heart of the UAV control system lies a state machine (As seen in the High
 
 This intricate state machine encapsulates the intelligence required for our UAV to navigate through its mission with precision, resilience, and adaptability. It seamlessly integrates with various functionalities, ensuring a dynamic response to the evolving requirements of the mission environment.
 
-### Position control
-<iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ### Gazebo Simulation (PX4 SITL)
 In the quest for reliable and safe UAV operations, I employed the PX4 SITL (Software-In-The-Loop) Gazebo simulation environment as a crucial pre-flight testing ground. This strategic decision aimed to validate code changes and mission plans comprehensively before deploying the UAV in real-world scenarios. By doing so, I created a robust development pipeline that substantially minimized risks, ensuring a flawless execution during actual flight operations.
 
@@ -130,6 +127,10 @@ The adoption of PX4 SITL not only served as a risk mitigation strategy but also 
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/ahojRCN_Bg4?si=X4qH7ORprZA94zkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Custom YOLOv8 models for cattle counting
+
+![cattle_yolov8](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/386fbf74-6555-42e5-afde-543830e1fa2c)
+
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
 A purpose-built 3DOF rig was designed and built and played a crucial role in refining the Roll, Pitch, and Yaw rate and attitude PID controllers, providing a controlled environment for meticulous tuning.
 
@@ -147,6 +148,9 @@ A purpose-built 3DOF rig was designed and built and played a crucial role in ref
         The 3DOF rig played a pivotal role in bridging the gap between indoor PID tuning and outdoor flight dynamics. By achieving an optimal state in the controlled environment provided by the rig, it set the stage for a smoother transition to the complexities of real-world flight. Fine-tuning         was performed outdoor and incorperated the velocity and position PID controllers.
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/g6P4DaSF0XQ?si=g6WTKveviRPdK1Fb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Position control Demo
+<iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Custom built drone
 ![Drone1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/72938bc9-56bb-4918-a3cf-ca0e6f9d8850)
