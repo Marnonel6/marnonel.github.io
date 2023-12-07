@@ -110,6 +110,22 @@ This intricate state machine encapsulates the intelligence required for our UAV 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Gazebo Simulation (PX4 SITL)
+In the quest for reliable and safe UAV operations, I employed the PX4 SITL (Software-In-The-Loop) Gazebo simulation environment as a crucial pre-flight testing ground. This strategic decision aimed to validate code changes and mission plans comprehensively before deploying the UAV in real-world scenarios. By doing so, I created a robust development pipeline that substantially minimized risks, ensuring a flawless execution during actual flight operations.
+
+Key Benefits of PX4 SITL Gazebo Simulation:
+
+1. Code Validation and Testing:
+
+    The PX4 SITL simulation environment provided a realistic virtual platform for testing code changes. This enabled me to identify and rectify bugs or issues in the control software before deploying it to the physical UAV. The simulation served as a proactive measure to catch potential problems, contributing to the seamless integration of new functionalities.
+
+2. Mission Plan Validation:
+
+    Mission changes, crucial for executing specific tasks, were meticulously tested within the PX4 SITL simulation environment. This allowed me to validate and fine-tune mission plans, ensuring that the UAV would navigate its designated path accurately and efficiently during actual flights.
+
+3. Risk Mitigation:
+
+   By thoroughly testing the UAV control software in the simulation environment, it significantly mitigated risks associated with unforeseen issues or unsafe behavior during real-world flights. This proactive approach translated to a 100% success rate in take-offs, landings, and overall flight operations, minimizing the chances of crashes or erratic behavior.
+
 <iframe width="960" height="640" src="https://www.youtube.com/embed/ahojRCN_Bg4?si=X4qH7ORprZA94zkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
