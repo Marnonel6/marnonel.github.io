@@ -90,6 +90,8 @@ In the heart of the UAV control system lies a state machine, ensuring seamless t
     Objective: Default state for logging and debugging purposes.
     Conditions: Logs information when none of the predefined states are matched.
 
+This intricate state machine encapsulates the intelligence required for our UAV to navigate through its mission with precision, resilience, and adaptability. It seamlessly integrates with various functionalities, ensuring a dynamic response to the evolving requirements of the mission environment.
+
 ### Position control
 <iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
