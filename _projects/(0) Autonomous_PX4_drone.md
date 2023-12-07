@@ -145,7 +145,7 @@ A purpose-built 3DOF rig was designed and built and played a crucial role in ref
 
     - Bridging the Gap to Outdoor Flight:
 
-        The 3DOF rig played a pivotal role in bridging the gap between indoor PID tuning and outdoor flight dynamics. By achieving an optimal state in the controlled environment provided by the rig, it set the stage for a smoother transition to the complexities of real-world flight. Fine-tuning         was performed outdoor and incorperated the velocity and position PID controllers.
+The 3DOF rig played a pivotal role in bridging the gap between indoor PID tuning and outdoor flight dynamics. By achieving an optimal state in the controlled environment provided by the rig, it set the stage for a smoother transition to the complexities of real-world flight. Fine-tuning         was performed outdoor and incorperated the velocity and position PID controllers.
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/g6P4DaSF0XQ?si=g6WTKveviRPdK1Fb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
