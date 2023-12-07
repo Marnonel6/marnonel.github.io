@@ -126,6 +126,8 @@ Key Benefits of PX4 SITL Gazebo Simulation:
 
    By thoroughly testing the UAV control software in the simulation environment, it significantly mitigated risks associated with unforeseen issues or unsafe behavior during real-world flights. This proactive approach translated to a 100% success rate in take-offs, landings, and overall flight operations, minimizing the chances of crashes or erratic behavior.
 
+The adoption of PX4 SITL not only served as a risk mitigation strategy but also streamlined the development process. Code changes and mission modifications underwent rigorous testing in the simulation, ensuring that the UAV was well-prepared for its outdoor missions. In essence, the utilization of PX4 SITL simulation was pivotal in achieving a 100% success rate in UAV flight operations. 
+
 <iframe width="960" height="640" src="https://www.youtube.com/embed/ahojRCN_Bg4?si=X4qH7ORprZA94zkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
