@@ -42,7 +42,7 @@ Beyond path planning, the node also plays a pivotal role in ensuring accurate sp
 ![Screenshot from 2023-11-10 12-01-03](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/9e8270a2-01b6-4322-a1e8-34714fdf9920)
 
 #### UAV Control (State Machine)
-In the heart of the UAV control system lies a state machine, ensuring seamless transitions between distinct operational states. This critical component, encapsulated in the timer_callback function, governs the UAV's behavior, ensuring optimal performance and responsiveness throughout its mission.
+In the heart of the UAV control system lies a state machine (As seen in the High level program diagram section), ensuring seamless transitions between distinct operational states. This critical component, encapsulated in the timer_callback function, governs the UAV's behavior, ensuring optimal performance and responsiveness throughout its mission.
 
 1. PREFLIGHT State:
 
