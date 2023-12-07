@@ -122,17 +122,11 @@ A purpose-built 3DOF rig was designed and built and played a crucial role in ref
 
     - Dynamic PID Controller Tuning:
 
-        The 3DOF rig served as a dynamic testing ground, enabling manual application of step inputs through the radio controller. This approach facilitated real-time adjustments and tuning of the PID controllers for Roll, Pitch, and Yaw rates, as well as attitude control. This live feedback, displayed through the QGround Control Station, allowed for precise calibration of the PID gains.
+        The 3DOF rig served as a dynamic testing ground, enabling manual application of step inputs through the radio controller. This approach facilitated real-time adjustments and tuning of the PID controllers for Roll, Pitch, and Yaw rates, as well as attitude control. This live feedback,            displayed through the QGround Control Station, allowed for precise calibration of the PID gains.
 
-- Iterative Tuning Process:
+    - Bridging the Gap to Outdoor Flight:
 
-    Our tuning procedure was a deliberate and iterative process. By manually applying step inputs through the radio controller, we scrutinized specific axes, such as Pitch, generating a dynamic response in desired pitch rate and angle. Real-time plotting of these parameters alongside the
-    actual ones through the QGround Control Station formed a crucial feedback loop. This live plotting mechanism provided invaluable insights into the UAV's behavior, guiding the fine-tuning of PID gains to achieve a harmonious balance between desired and actual flight dynamics.
-
-- Transitioning to Outdoor Dynamics:
-
-    Following the successful indoor tuning sessions, the UAV seamlessly transitioned from the rig to the dynamic challenges of outdoor flight. Fine-tuning extended beyond rate and attitude controllers to encompass velocity and position controllers. This holistic approach underscored
-    our commitment to precision and adaptability, ensuring that our UAV's performance was optimized in diverse operational scenarios.
+        The 3DOF rig played a pivotal role in bridging the gap between indoor PID tuning and outdoor flight dynamics. By achieving an optimal state in the controlled environment provided by the rig, it set the stage for a smoother transition to the complexities of real-world flight. Fine-tuning         was performed outdoor and incorperated the velocity and position PID controllers.
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/g6P4DaSF0XQ?si=g6WTKveviRPdK1Fb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
