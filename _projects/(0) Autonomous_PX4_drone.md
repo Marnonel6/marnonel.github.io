@@ -166,10 +166,12 @@ In the quest for precision farming, a ROS2 C++ package was developed to seamless
 
 This ROS2 RFID integration package serves as a cornerstone in empowering farmers with an advanced precision livestock inventory management system.
 
-Visual prediction of cattle locations.
+Visual prediction of cattle locations:
+
 ![RFID1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/a5563823-b5ca-4f20-aa30-4da546101bd5)
 
-Predicted cattle locations and corral RFID tag inventory list.
+Predicted cattle locations and corral RFID tag inventory list:
+
 ![RFID2](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/b8c88e4f-ae22-4d6a-aa5a-b159e9af27ba)
 
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
