@@ -174,23 +174,27 @@ Predicted cattle locations and corral RFID tag inventory list:
 
 ![RFID2](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/b8c88e4f-ae22-4d6a-aa5a-b159e9af27ba)
 
-### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
-A purpose-built 3DOF rig was designed and built and played a crucial role in refining the Roll, Pitch, and Yaw rate and attitude PID controllers, providing a controlled environment for meticulous tuning.
+### Autonomous charger and landing dock (Still in progress)
 
-- Key Features of the Custom 3DOF Rig:
+
+### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
+A purpose-built 3 DOF rig was designed and built and played a crucial role in refining the Roll, Pitch, and Yaw rate and attitude PID controllers, providing a controlled environment for meticulous tuning.
+
+- Key Features of the Custom 3 DOF Rig:
     - Individual Axis Isolation:
     
         The rig's design incorporated a thoughtful approach by allowing individual axis isolation. This strategic feature proved instrumental in dissecting and fine-tuning each controller independently, ensuring an optimized performance profile for every axis before combining them.
 
     - Dynamic PID Controller Tuning:
 
-        The 3DOF rig served as a dynamic testing ground, enabling manual application of step inputs through the radio controller. This approach facilitated real-time adjustments and tuning of the PID controllers for Roll, Pitch, and Yaw rates, as well as attitude control. This live feedback,            displayed through the QGround Control Station, allowed for precise calibration of the PID gains.
+        The 3 DOF rig served as a dynamic testing ground, enabling manual application of step inputs through the radio controller. This approach facilitated real-time adjustments and tuning of the PID controllers for Roll, Pitch, and Yaw rates, as well as attitude control. This live feedback,            displayed through the QGround Control Station, allowed for precise calibration of the PID gains.
 
     - Bridging the Gap to Outdoor Flight:
 
-The 3DOF rig played a pivotal role in bridging the gap between indoor PID tuning and outdoor flight dynamics. By achieving an optimal state in the controlled environment provided by the rig, it set the stage for a smoother transition to the complexities of real-world flight. Fine-tuning         was performed outdoor and incorperated the velocity and position PID controllers.
+The 3 DOF rig played a pivotal role in bridging the gap between indoor PID tuning and outdoor flight dynamics. By achieving an optimal state in the controlled environment provided by the rig, it set the stage for a smoother transition to the complexities of real-world flight. Fine-tuning         was performed outdoor and incorperated the velocity and position PID controllers.
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/g6P4DaSF0XQ?si=g6WTKveviRPdK1Fb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Thank you Davin Landry for your contributions to the 3 DOF rig!
 
 ### Position control Demo
 <iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -199,6 +203,11 @@ The 3DOF rig played a pivotal role in bridging the gap between indoor PID tuning
 ![Drone1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/72938bc9-56bb-4918-a3cf-ca0e6f9d8850)
 
 ### Future Work
+- Enhance RFID reader range during flight to at least 5[m] (currently limited to 1[m]).
+- Implement dynamic obstacle avoidance incorporating obstacle sensing with a lidar/depth sensors.
+- Introduce a dedicated mission state for autonomous drone charging, seamlessly resuming the mission afterward.
+- Construct a specialized landing dock to facilitate autonomous charging operations.
+- Complete the development of the autonomous charger circuit and seamlessly integrate it into the UAV system.
 
 ### Reference:
 - Mier_Fields2Cover_An_open-source_2023, Mier, Gonzalo and Valente, João and de Bruin, Sytze, IEEE Robotics and Automation Letters, Fields2Cover: An Open-Source Coverage Path Planning Library for Unmanned Agricultural Vehicles, 2023
