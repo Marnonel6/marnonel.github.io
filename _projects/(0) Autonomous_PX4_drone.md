@@ -144,6 +144,34 @@ A UAV was used to collect video data in a feedlot environment, focusing on cattl
   
 ![cattle_yolov8](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/386fbf74-6555-42e5-afde-543830e1fa2c)
 
+### RFID cattle inventory system
+In the quest for precision farming, a ROS2 C++ package was developed to seamlessly integrate an RFID reader into the UAV system. The package facilitates communication over Ethernet via TCP with the Raspberry Pi onboard the UAV. The RFID reader, a vital component in the livestock monitoring system, establishes a robust connection with the UAV and relays critical information during mission flights.
+
+- Key Features of the ROS2 RFID Package:
+
+    1. TCP-Ethernet Communication:
+        The ROS2 C++ package orchestrates the setup and management of a TCP connection between the RFID reader and the Raspberry Pi on the UAV. This ensures a reliable and real-time data exchange during mission operations.
+
+    2. Dynamic Data Listening:
+        A core functionality of the package is its ability to actively listen on the socket for incoming data from the RFID reader while the UAV is in flight. This dynamic data retrieval enables real-time tracking of RFID tags attached to cattle within the operational area.
+
+    3. Comprehensive Logging:
+        Upon successful tag reads, the package logs essential information to a CSV file. This log includes the unique EPC number of the RFID tag, timestamp, day, as well as the UAV's current local and global longitude and latitude coordinates.
+
+    4. Predictive Cattle Location:
+        Post-mission, the CSV file undergoes parsing, leveraging predictive algorithms to estimate the location of each cattle tagged. This transformative step contributes to the creation of a comprehensive livestock inventory system.
+
+    5. Corral Assignment:
+        The parsed data is further processed to intelligently assign each cattle tag to a specific corral. This level of granularity ensures that the inventory system can identify the location of each tagged cattle, offering valuable insights for precision farming.
+
+This ROS2 RFID integration package serves as a cornerstone in empowering farmers with an advanced precision livestock inventory management system.
+
+Visual prediction of cattle locations.
+![RFID1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/a5563823-b5ca-4f20-aa30-4da546101bd5)
+
+Predicted cattle locations and corral RFID tag inventory list.
+![RFID2](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/b8c88e4f-ae22-4d6a-aa5a-b159e9af27ba)
+
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
 A purpose-built 3DOF rig was designed and built and played a crucial role in refining the Roll, Pitch, and Yaw rate and attitude PID controllers, providing a controlled environment for meticulous tuning.
 
