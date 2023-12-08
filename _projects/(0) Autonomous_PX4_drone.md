@@ -174,9 +174,6 @@ Predicted cattle locations and corral RFID tag inventory list:
 
 ![RFID2](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/b8c88e4f-ae22-4d6a-aa5a-b159e9af27ba)
 
-### Autonomous charger and landing dock (Still in progress)
-
-
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
 A purpose-built 3 DOF rig was designed and built and played a crucial role in refining the Roll, Pitch, and Yaw rate and attitude PID controllers, providing a controlled environment for meticulous tuning.
 
@@ -195,6 +192,11 @@ The 3 DOF rig played a pivotal role in bridging the gap between indoor PID tunin
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/g6P4DaSF0XQ?si=g6WTKveviRPdK1Fb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 Thank you Davin Landry for your contributions to the 3 DOF rig!
+
+### Autonomous charger and landing dock (Still in progress)
+In progress: Finalizing the construction of the charging dock and integration of the autonomous charger circuit, promising a comprehensive solution for uninterrupted and autonomous charging operations.
+Hacked a smart LiPo charger using a microcontroller to enable autonomous charging for the drone upon landing. Developing a magnetic self-aligning connector for the charging dock, ensuring a seamless and efficient connection process.
+Ongoing construction of a continuity check mechanism, enhancing reliability during the charging process. Advancing the design and implementation of a low cost comprehensive charging dock to complement the autonomous charging infrastructure.
 
 ### Position control Demo
 <iframe width="960" height="640" src="https://www.youtube.com/embed/RFKnYLMNUqU?si=yA36iYt479uSDvuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
