@@ -126,14 +126,14 @@ Key Benefits of PX4 SITL Gazebo Simulation:
 The adoption of PX4 SITL not only served as a risk mitigation strategy but also streamlined the development process. Code changes and mission modifications underwent rigorous testing in the simulation, ensuring that the UAV was well-prepared for its outdoor missions. In essence, the utilization of PX4 SITL simulation was pivotal in achieving a 100% success rate in UAV flight operations. 
 
 <iframe width="960" height="640" src="https://www.youtube.com/embed/ahojRCN_Bg4?si=X4qH7ORprZA94zkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<!--
 ### Custom YOLOv8 models for cattle counting
 A UAV was used to collect video data in a feedlot environment, focusing on cattle and corral infrastructure. The collected data underwent meticulous hand-labeling, setting the stage for the development of two specialized YOLOv8 instance segmentation models—one dedicated to cattle detection and another finely tuned for identifying corral fences.
-
+--
 - Model Training and Integration:
 
     The two YOLOv8 models where trained and then seamlessly integrated into a python workflow, leveraging the power of instance segmentation to discern individual entities within the imagery. The first model, trained specifically for cattle, demonstrated high accuracy in identifying cattle. Simultaneously, the second model excelled in recognizing and segmenting corral fences.
-  
+<!--
 - Smart Corral Line Detection:
 
     These models were then coupled with sophisticated post-processing techniques to enable the algorithm to precisely locate the corral line, a critical element in managing livestock within a confined space. The algorithms not only identified the corral boundaries but also discerned which cattle resided within the current corral that was under inspection.
@@ -173,6 +173,7 @@ Visual prediction of cattle locations:
 Predicted cattle locations and corral RFID tag inventory list:
 
 ![RFID2](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/b8c88e4f-ae22-4d6a-aa5a-b159e9af27ba)
+-->
 
 ### Custom Built 3 DOF (Roll, Pitch, Yaw) PID Tuning Rig
 A purpose-built 3 DOF rig was designed and built and played a crucial role in refining the Roll, Pitch, and Yaw rate and attitude PID controllers, providing a controlled environment for meticulous tuning.
@@ -205,7 +206,7 @@ Ongoing construction of a continuity check mechanism, enhancing reliability duri
 ![Drone1](https://github.com/Marnonel6/marnonel6.github.io/assets/60977336/72938bc9-56bb-4918-a3cf-ca0e6f9d8850)
 
 ### Future Work
-- Enhance RFID reader range during flight to at least 5[m] (currently limited to 1[m]).
+<!-- - Enhance RFID reader range during flight to at least 5[m] (currently limited to 1[m]). -->
 - Implement dynamic obstacle avoidance incorporating obstacle sensing with a lidar/depth sensors.
 - Introduce a dedicated mission state for autonomous drone charging, seamlessly resuming the mission afterward.
 - Construct a specialized landing dock to facilitate autonomous charging operations.
